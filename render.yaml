@@ -5,8 +5,6 @@ services:
     plan: free
     repo: https://github.com/Bose-16/Online_E-voting-main
     envVars:
-      - key: DATABASE_URL
-        value: "sqlite:///db.sqlite3"
       - key: SECRET_KEY
         generateValue: true
     autoDeploy: true
